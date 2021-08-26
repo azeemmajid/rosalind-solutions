@@ -21,7 +21,7 @@ def compare(fragments):
             highestGCCount = fragments[key]["gcContent"]
 
     print(highestGCid)
-    print(highestGCCount)
+    print(round(highestGCCount*100, 6))
 
 def getInput():
     # initialized dictionary for fragment storage
